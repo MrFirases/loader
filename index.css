@@ -1,0 +1,141 @@
+@import url(https://zavoloklom.github.io/material-design-iconic-font/css/docs.md-iconic-font.min.css);
+
+.medzapp-fab .medzapp-fab-elem {
+    display: block;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    text-align: center;
+    color: #263238;
+    margin: 25px auto 0;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+    cursor: pointer;
+    -webkit-transition: all .1s ease-out;
+    -moz-transition: all .1s ease-out;
+    -o-transition: all .1s ease-out;
+    transition: all .1s ease-out;
+    position: fixed;
+    bottom: 12px;
+    right: 12px;
+    z-index: 10001;
+    overflow: hidden;
+    background-color: #F44336;
+    display: none;
+}
+
+.medzapp-fab .medzapp-fab-elem > i {
+    font-size: 2em;
+    line-height: 55px;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-in-out;
+}
+
+
+.medzapp-fab .medzapp-fab-elem .white-icon {
+    color: #FFFFFF;
+}
+
+@media only screen and (max-device-width: 667px), screen and (max-width: 535px) {
+    .medzapp-widget .medzapp-iframe-card {
+        height: 100% !important;
+        max-height: 100% !important;
+        bottom: 0 !important;
+        width: 100% !important;
+        right: 0 !important;
+    }
+
+    .medzapp-fab .medzapp-fab-elem {
+        bottom: 8px !important;
+        right: 8px !important;
+    }
+}
+
+
+.medzapp-widget > iframe
+{
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:430px;
+    height:calc(100% - 20px - 75px - 20px);
+    max-height: 690px;
+    overflow:hidden;
+    background-color: #FFFFFF;
+    position: fixed;
+    bottom: 30px;
+    right: 76px;
+    z-index: 10000;
+}
+
+
+
+
+/* SWING */
+
+@-webkit-keyframes medzapp-fab-swing
+{
+    15%
+    {
+        -webkit-transform: translateX(8px);
+        transform: translateX(8px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-8px);
+        transform: translateX(-8px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(6px);
+        transform: translateX(6px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-6px);
+        transform: translateX(-6px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes medzapp-fab-swing
+{
+    15%
+    {
+        -webkit-transform: translateX(8px);
+        transform: translateX(8px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-8px);
+        transform: translateX(-8px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(6px);
+        transform: translateX(6px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-6px);
+        transform: translateX(-6px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
