@@ -22,12 +22,12 @@
         (document.getElementsByTagName("head")[0] || document.documentElement || document.head).appendChild(script_tag);
 
         // Include CSS file
-        includeCSS("css/index.css");
+        includeCSS("https://cdn.rawgit.com/MrFirases/loader/ae4abb53/index.css");
 
     } else {
 
         // Include CSS file
-        includeCSS("css/index.css");
+        includeCSS("https://cdn.rawgit.com/MrFirases/loader/ae4abb53/index.css");
 
         // The jQuery version on the window is the one we want to use
         jQuery = window.jQuery;
